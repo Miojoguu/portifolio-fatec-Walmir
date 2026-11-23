@@ -95,6 +95,7 @@ h2 { margin-bottom: 2.3rem; font-size: clamp(2.8rem, 5vw, 5rem); letter-spacing:
 .gallery-slide + .gallery-slide { margin-top: 1.5rem; }
 .project-gallery.is-enhanced .gallery-slide { margin-top: 0; }
 .project-gallery .project-figure img { height: auto; max-height: none; }
+#animus .project-gallery .project-figure img { width: auto; max-width: 100%; height: auto; max-height: 520px; margin-inline: auto; object-fit: contain; }
 .project-gallery--sat .project-video { display: block; width: 100%; height: auto; aspect-ratio: 1199 / 517; border: 1px solid var(--line); background: #000; }
 .gallery-arrow { position: absolute; top: calc((100% - 1.75rem) / 2); display: grid; place-items: center; width: 44px; height: 44px; padding: 0; transform: translateY(-50%); border: 0; background: transparent; color: var(--ink); font-size: 0; cursor: pointer; }
 .gallery-arrow::before { content: ""; display: block; width: 13px; height: 13px; border-right: 3px solid currentColor; border-bottom: 3px solid currentColor; }
@@ -107,6 +108,7 @@ h2 { margin-bottom: 2.3rem; font-size: clamp(2.8rem, 5vw, 5rem); letter-spacing:
 .gallery-count { margin: .35rem 0 0; color: var(--muted); font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-align: right; text-transform: uppercase; }
 figcaption { margin-top: .55rem; color: var(--muted); font-size: .75rem; line-height: 1.4; }
 .project-visual { min-width: 0; }
+.project-image-placeholder { width: 100%; aspect-ratio: 16 / 9; border: 1px solid var(--line); background: white; }
 .technology-list { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .5rem; width: 100%; margin: 1.1rem 0 0; padding: 0; list-style: none; }
 .technology-list li { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .35rem; min-width: 0; min-height: 4.4rem; padding: .55rem .4rem; border: 1px solid var(--line); background: white; color: var(--ink); font-size: .68rem; font-weight: 600; line-height: 1.2; text-align: center; }
 .technology-list img { width: 2rem; height: 2rem; object-fit: contain; }
